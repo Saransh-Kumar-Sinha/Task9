@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Webpage Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 40px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .box {
+            width: 200px;
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .box img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <img src="home.png" alt="Home Icon">
+            <h2>Home</h2>
+        </div>
+        <div class="box">
+            <img src="about.png" alt="About Icon">
+            <h2>About</h2>
+        </div>
+        <div class="box">
+            <img src="gallery.png" alt="Gallery Icon">
+            <h2>Gallery</h2>
+        </div>
+        <div class="box">
+            <img src="contact.png" alt="Contact Icon">
+            <h2>Contact</h2>
+        </div>
+    </div>
+
+</body>
+</html>
